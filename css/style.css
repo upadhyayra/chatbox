@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.chatbox{
+   
+    position: relative;
+    top: 50px;
+    border-radius: 20px;
+    box-shadow: 1px 2px 10px 0px grey;
+    
+}
+hr{
+    width: 100%;
+    margin: 0;
+}
+h1{
+    padding: 10px 0;
+    border-radius: 10px 0;
+}
+.chatbox-input{
+    border-radius: 0 10px;
+}
+input{
+    height: 60px;
+    border: none;
+    outline: none;
+
+}
+.bi-send-fill{
+    font-size: 25px;
+    
+}
+.chatbox-input button{
+    border: none;
+    width: 40px;
+    outline: none;
+}
+ul{
+    padding: 10px;
+    height: 100%;
+    overflow-y: auto;
+}
+ul .outgoing-list{
+    display: flex;
+    justify-content: flex-end;
+}
+ul .incoming-list{
+    display: flex;
+    justify-content: flex-start;
+    width: 70%;
+}
+.span{
+        margin-top: 20px;
+        padding:10px;
+        color: #fff;
+}
+.outgoing-list .span{
+word-break: break-word;
+    border-radius: 10px 0px 0px 10px;
+    margin-left: 40px;
+
+  
+}
+ .incoming-list .span{
+border-radius: 0 10px 10px 0;
+word-break: break-word;
+}
+button{
+    display: block;
+}
+a {
+    text-decoration: none;
+    color: darkblue;
+    background: #EADEDB;
+    padding: 10px;
+    border-radius: 5px;
+}
+
